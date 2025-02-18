@@ -277,25 +277,6 @@ export const SheetDetailbar = () => {
               </p>
             </div>
 
-            {/* <div className="bg-gray-700 p-3 rounded">
-                <h3 className="font-semibold mb-2 flex items-center">
-                  <Star className="w-4 h-4 mr-2" /> Progress
-                </h3>
-                <div className="flex justify-between text-sm">
-                  <span>Solved Problems</span>
-                  <span>
-                    {sheetDetails.solvedProblems} / {sheetDetails.totalProblems}
-                  </span>
-                </div>
-                <div className="w-full bg-gray-600 rounded-full h-2.5 mt-2">
-                  <div
-                    className="bg-green-500 h-2.5 rounded-full"
-                    style={{
-                      width: `${progressPercentage}%`,
-                    }}
-                  ></div>
-                </div>
-              </div> */}
             <div className="p-4 rounded-md border bg-background shadow-lg text-white">
               <div className="font-semibold mb-3 flex items-center">
                 <ChartColumn className="w-5 h-5 mr-3 text-blue-500" />

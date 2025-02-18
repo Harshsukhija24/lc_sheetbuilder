@@ -6,7 +6,6 @@ import { AxiosPost } from "../utils/axiosCaller";
 import { useCookies } from "react-cookie";
 import { constants } from "../utils/constants";
 import { useToast } from "@/hooks/use-toast";
-import { AppContext } from "@/lib/Appcontext";
 
 const Login = () => {
   // toast message hook

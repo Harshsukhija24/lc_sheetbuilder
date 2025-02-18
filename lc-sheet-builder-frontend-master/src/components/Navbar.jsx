@@ -6,19 +6,16 @@ const Navbar = () => {
       <div className="flex justify-between ">
         <div className="text-lg font-bold">Custom Sheets </div>
         <div className="flex space-x-4">
-          <Link to="/" className="hover:cursor-not-allowed transition-colors">
+          <Link
+            to="/home"
+            className="hover:cursor-not-allowed transition-colors"
+          >
             Home
           </Link>
-          <Link
-            to="/about"
-            className="hover:cursor-not-allowed transition-colors"
-          >
+          <Link className="hover:cursor-not-allowed transition-colors">
             About
           </Link>
-          <Link
-            to="/contact"
-            className="hover:cursor-not-allowed transition-colors"
-          >
+          <Link className="hover:cursor-not-allowed transition-colors">
             Contact
           </Link>
         </div>

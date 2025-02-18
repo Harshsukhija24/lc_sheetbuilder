@@ -1,5 +1,4 @@
 import { showToast, Toaster } from "@/components/ui/sonner";
-import { toast } from "react-toastify";
 
 class ToastHandler {
   static showLoading(message = "Loading...") {
