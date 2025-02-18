@@ -3,8 +3,11 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 import { errorResponse, successResponse } from "../utils/apiResponse.js";
 import { constants } from "../utils/constants.js";
-import { dbCreateNewUser, dbGetUserByEmail } from "../dbAccessor/userDbAccessor.js";
-import { JWT_EXPIRATION, JWT_SECRET } from "../server.js";
+import {
+  dbCreateNewUser,
+  dbGetUserByEmail,
+} from "../dbAccessor/userDbAccessor.js";
+import { JWT_EXPIRATION, JWT_SECRET } from "../index.js";
 
 const RESOURCE_CREATED_SUCCESS = constants.STATUS_CODE.RESOURCE_CREATED_SUCCESS;
 const CONFLICT_ERROR_STATUS_CODE = constants.STATUS_CODE.RESOURCE_CONFLICT;
